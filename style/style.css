@@ -1,0 +1,227 @@
+:root {
+--main-light-color: #ffffff;
+
+--main-font-color: #757575;
+--secondory-font-color: #212121;
+--accent-color: #2196f3;
+--secondary-accent-color: #188ce8;
+--logo-color: #000000;
+
+--border-bg-color: #2f303a;
+--section-team-bg-color: #f5f4fa;
+}
+
+/*Global styles*/
+
+body {
+    background-color: var(--main-light-color);
+    color: var(--main-font-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+   text-align: center;
+    color: var(--secondory-font-color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+   text-transform: uppercase;
+    color: var(--secondory-font-color);
+}
+
+.link,
+.text {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.button {
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Site Studio */
+
+/* Heder Шапка for page Studio & Portfolio */
+
+.logo,
+.web {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    color: var(--logo-color);
+}
+
+.web {
+    color: var(--accent-color);
+}
+
+.nav-link,
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    color: var(--secondory-font-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-link {
+    color: var(--main-font-color);
+}
+
+.nav-link.current {
+    color: var(--accent-color);
+}
+
+/*  Section Hero */
+.hero {
+    background-color: var(--border-bg-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-light-color);
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    border: none;
+    background-color: var(--accent-color);
+    color: var(--main-light-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--secondary-accent-color);
+}
+
+/* Footer Подвал  for Studio & Portfolio */
+.footer {
+    background-color: var(--border-bg-color);
+}
+
+.studio,
+.adres .text {
+    color: var(--main-light-color);
+}
+
+.adres .text,
+.adres .link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.adres .link {
+    color: rgba (255, 255, 255, 0.6);
+}
+
+.adres .link:hover,
+.adres .link:focus {
+    color: var(--accent-color);
+}
+
+/*Page Portfolio, Main page */
+
+.filter-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--section-team-bg-color);
+    color: var(--secondory-font-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--main-light-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-button.current {
+    background-color: var(--secondary-accent-color);
+    color: var(--main-light-color);
+}
+
+/* Карточки Cards */
+
+.cards-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondory-font-color);
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+
+
