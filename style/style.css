@@ -6,6 +6,7 @@
 --accent-color: #2196f3;
 --secondary-accent-color: #188ce8;
 --logo-color: #000000;
+--adres-link-color: rgba(255, 255, 255, 0.6);
 
 --border-bg-color: #2f303a;
 --section-team-bg-color: #f5f4fa;
@@ -23,29 +24,31 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin: 0;
-    padding: 0;
+  
 }
 
 .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-   text-align: center;
+    text-align: center;
     color: var(--secondory-font-color);
+}
+.section-team {
+    background-color: var(--section-team-bg-color);
 }
 
 .title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-   text-transform: uppercase;
     color: var(--secondory-font-color);
 }
 
 .link,
 .text {
     text-decoration: none;
-    color: inherit;
+    
 }
 
 
@@ -167,7 +170,6 @@ body {
 
 .adres .text,
 .adres .link {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -175,7 +177,7 @@ body {
 }
 
 .adres .link {
-    color: rgba (255, 255, 255, 0.6);
+    color: var(--adres-link-color);
 }
 
 .adres .link:hover,
@@ -186,7 +188,6 @@ body {
 /*Page Portfolio, Main page */
 
 .filter-button {
-    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
